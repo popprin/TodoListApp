@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css';
+@import "../node_modules/bootswatch/dist/minty/bootstrap.min.css";
+
+
+body {
+    margin: 0;
+    background: #F2F3F4;
+    font-family: 'Montserrat', sans-serif;
+    color: #860E3C;
+    height: 100vh;
+}
+
+
+#content {
+    padding: 30px 200px ;
+}

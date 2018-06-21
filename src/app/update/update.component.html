@@ -1,0 +1,22 @@
+<h1>Update TodoList</h1>
+<form (submit) = "updateList(id.value,title.value, detail.value)">
+  <fieldset>
+    <div class="form-group">
+          <label class="control-label" for="readOnlyID">ID</label>
+          <input type="read" class="form-control" readonly="" value="{{listId}}" #id>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputTitle">Title</label>
+      <input type="text" class="form-control"  placeholder="Your Title" #title>
+    </div>
+    <div class="form-group">
+      <label for="exampleInputDetail">Detail</label>
+      <input type="text" class="form-control"  placeholder="Your Detail" #detail>
+    </div>
+    <button  type="submit" class="btn btn-primary btn-block">Update</button>
+  </fieldset>
+</form>
+
+<script>
+
+</script>
