@@ -14,7 +14,7 @@ const routes: Routes = [
      component: DetailComponent
    },
    {
-     path: 'details/update/:id',
+     path: 'update/:id',
      component: UpdateComponent
    }
 
